@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './nav/nav.component';
 
+import'./shared/rxjs-extensions';
+
 @NgModule({
   imports: [ BrowserModule,
                    FormsModule,
